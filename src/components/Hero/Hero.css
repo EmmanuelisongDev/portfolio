@@ -1,0 +1,96 @@
+.hero{
+    @apply
+   mt-5
+}
+.hero .head{
+    @apply
+    text-5xl
+    font-black
+    mt-20
+    ml-[10%]
+    sm:text-8xl
+    xl:text-[200px]
+    relative
+}
+.hero .head1{
+    @apply
+    text-4xl
+    font-black
+    mt-40
+    ml-[10%]
+    sm:text-xl
+    w-full
+    relative
+}
+.intro{
+    @apply
+    py-16
+    /* lg:py-36 */
+    ml-[10%]
+    text-2xl
+    flex
+    /* justify-end */
+    font-medium
+    sm:text-4xl
+    xl:text-6xl
+  
+
+}
+
+.intro .under{
+    @apply
+    underline
+}
+/* 
+.hero .marquee{
+    @apply
+    flex
+    mb-16
+    w-full
+    justify-evenly  
+}
+
+.hero .marquee span .logo{
+    @apply
+    w-7
+    h-7
+} */
+
+.marqueeContainer{
+    display:flex;
+    overflow: hidden;
+    user-select: none;
+    gap: 1rem;
+    margin: 20px 0;
+
+}
+
+.marqueeContainer .logo{
+    @apply
+    w-10
+    h-10
+    text-[#525252]
+    
+}
+
+.marqueeContent{
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 0;
+    min-width: 100%;
+    gap: 1rem;
+    transform: translateX(100%);
+    animation: scroll 20s linear infinite;
+}
+.marqueeContainer:hover .marqueeContent{
+    animation-play-state: paused;
+}
+@keyframes scroll {
+    0%{
+        transform:translateX(100%);
+    }
+    100%{
+        transform:translateX(-100%);
+    }
+    
+} 

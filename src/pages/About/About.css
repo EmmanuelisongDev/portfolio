@@ -1,0 +1,151 @@
+.about{
+    @apply
+    pt-8
+    text-[#fff]
+    bg-black
+ 
+}
+.back .t{
+    @apply
+    text-5xl
+    text-[red]
+    fixed
+    font-extrabold
+    rounded-md
+    animate-bounce
+}
+
+.about-header,.about-content{
+    @apply
+    px-[10%]
+}
+
+
+.about-header{
+    @apply
+    flex    
+    justify-between
+    flex-col
+    sm:flex-row
+    mb-10
+}
+.about-header .title{
+    @apply
+    text-3xl
+    md:text-7xl
+    font-bold
+}
+
+
+.about-header .title-img{
+    @apply
+    w-1/2
+    relative
+    mb-5
+}
+
+
+.about-header .title-img img{
+    @apply
+    w-full
+    h-full
+    rounded-xl
+    object-cover
+    bg-center
+    
+}
+
+.introduction{
+    @apply
+    rounded-xl
+    text-[#ffff]
+    pb-5
+    md:w-[80%]
+
+}
+
+.introduction p{
+    @apply
+    mb-14
+    lg:mb-20
+    text-xl
+    sm:text-2xl
+    md:text-4xl
+    lg:text-7xl
+}
+/* 
+'#39ff14'
+'#ff3131' 
+bg-[#9d00ff]*/
+.introduction p span{
+    @apply
+    bg-[#9d00ff]
+    rounded-md
+    text-black
+}
+.skills ul{
+    @apply
+    justify-center
+}
+
+
+
+/* '#39ff14' */
+/* '#ff3131' */
+
+.about-content h1{
+    @apply
+    text-2xl
+    md:text-4xl
+   
+    /* text-[#39ff14] */
+    /* mt-8 */
+    font-medium
+}
+.about-content 
+
+.skills h1{
+    @apply
+    text-2xl
+    
+    md:text-4xl
+
+}
+
+
+.skills ul{
+    @apply
+    flex
+    justify-evenly
+}
+
+.skills ul li .v{
+    @apply
+    text-3xl
+}
+
+.work .works{
+    @apply
+    pb-5
+    
+}
+
+.works h2{
+    @apply
+    text-xl
+    md:text-2xl
+    font-semibold
+}
+
+.works h3{
+    @apply
+    text-lg
+    md:text-xl
+    font-normal
+    mb-2
+}
+
+.works ul  li{
+    @apply
+    list-disc
+}

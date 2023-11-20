@@ -1,0 +1,123 @@
+.project{
+    @apply
+    bg-[#111111]
+    text-[#ffff]
+    py-[50px]
+    px-0
+    rounded-t-[5px]
+    pb-[45px]
+    
+}
+
+.project .head{
+    @apply
+    ml-[10%]
+    text-[40px]
+    font-extrabold
+    sm:text-7xl
+}
+
+.project-card{
+    @apply
+    flex
+    flex-col
+    items-center
+}
+
+
+
+.card{
+    @apply
+    w-4/5
+    my-16
+    sm:my-36
+    /* rounded-md */
+    
+}
+
+.image{
+    @apply
+    h-[237px]
+    sm:h-[400px]
+    lg:h-[600px]
+    cursor-pointer
+    opacity-100
+    transition-opacity
+    rounded-sm
+    overflow-hidden
+    relative
+    
+}
+
+.loading{
+    @apply
+    blur
+    /* clip-path: inset(0); */
+    bg-[#fcffe9]
+}
+
+.loaded{
+    @apply
+    bg-[#fcffe9;]
+}
+
+
+.image img{
+    @apply
+    w-full
+    h-full
+    rounded-sm
+    object-cover
+}
+
+
+.info{
+    @apply
+    flex
+    justify-between
+    items-baseline
+    mt-3
+}
+
+.info .name h2{
+    @apply
+    text-xl
+    sm:text-3xl
+    lg:text-7xl
+    font-bold
+    cursor-pointer
+}
+.info .name p{
+    @apply
+    text-sm
+    sm:text-lg
+    lg:text-2xl
+    font-light
+}
+
+.info .links{
+    @apply
+    flex
+    gap-2
+}
+
+.github{
+    @apply
+    cursor-pointer
+    relative
+    
+}
+.github .g{
+    @apply
+    sm:h-7
+}
+
+.weblink{
+    @apply
+    cursor-pointer
+}
+
+.weblink .w{
+    @apply
+    sm:h-7
+}
