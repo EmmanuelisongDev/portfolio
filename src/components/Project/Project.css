@@ -35,6 +35,21 @@
     
 }
 
+.card .tools .tool{
+    @apply
+    bg-[#e4e0e7]
+    text-black
+    text-[8px]
+    sm:text-xs
+    md:text-sm
+    
+    font-bold
+    border-2
+    rounded-md
+
+    mt-2
+}
+
 .image{
     @apply
     h-[237px]

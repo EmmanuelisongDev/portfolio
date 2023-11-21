@@ -6,6 +6,7 @@ const data = [
     git: "https://github.com/EmmanuelisongDev/CokBok",
     link: "https://cok-bok.netlify.app/",
     image: require("./assets/cokbok.png"),
+    tools: ["React", "TailwindCSS", "SpoonacularApi"],
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const data = [
     git: "https://github.com/EmmanuelisongDev/Tetris",
     link: "https://tetris-projectv.netlify.app/",
     image: require("./assets/tetris.png"),
+    tools: ["HTML", "CSS", "Javascript"],
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const data = [
     git: "https://github.com/EmmanuelisongDev/DailyBread",
     link: "https://daily-bread-emma.netlify.app/",
     image: require("./assets/dailybread.png"),
+    tools: ["React", "TailwindCSS"],
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ const data = [
     git: "https://github.com/EmmanuelisongDev/Planetorz.git",
     link: "https://planetor.netlify.app/",
     image: require("./assets/planet.png"),
+    tools: ["HTML", "CSS", "Javascript"],
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ const data = [
     git: "https://github.com/EmmanuelisongDev/WeatherMan",
     link: "https://weatherman-emma.netlify.app",
     image: require("./assets/weather.png"),
+    tools: ["React", "TailwindCSS", "Open Weather Map"],
   },
 ];
 

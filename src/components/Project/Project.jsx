@@ -114,6 +114,16 @@ const Project = () => {
                 </a>
               </div>
             </div>
+
+            <div className="tools">
+              {data.tools.map((tool) => {
+                return (
+                  <>
+                    <span className="tool">{tool}</span>{" "}
+                  </>
+                );
+              })}
+            </div>
           </motion.div>
         ))}
       </div>
