@@ -15,10 +15,11 @@
     animate-bounce
 }
 
-.about-header,.about-content{
+.about-header,.about-content,.experience{
     @apply
     px-[10%]
 }
+
 
 
 .about-header{
@@ -73,16 +74,8 @@
     md:text-4xl
     lg:text-7xl
 }
-/* 
-'#39ff14'
-'#ff3131' 
-bg-[#9d00ff]*/
-.introduction p span{
-    @apply
-    bg-[#9d00ff]
-    rounded-md
-    text-black
-}
+
+
 .skills ul{
     @apply
     justify-center

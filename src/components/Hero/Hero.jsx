@@ -33,34 +33,9 @@ const Hero = () => {
         transition={{ duration: 0.5, delay: 0.5 }}
       >
         <p>
-          "HEY,I am a FRONT-END{" "}
-          {/* <AiFillStar
-            style={{
-              display: "inline",
-              fontSize: "100%",
-              color: "#39ff14",
-            }}
-          />{" "} */}
-          <br />
-          DEVELOPER and ux engineer <br />
-          proficient in{" "}
-          {/* <BsFillSquareFill
-            style={{
-              fontSize: "100%",
-              display: "inline",
-              color: "#9d00ff",
-            }}
-          />{" "} */}
-          creating <br />
+          "HEY,I am a FRONT-END DEVELOPER proficient in creating
           <span className="under"> visually pleasing</span> digital
           experiences."
-          {/* <TbTriangleInvertedFilled
-            style={{
-              display: "inline",
-              fontSize: "100%",
-              color: "#ff3131",
-            }}
-          /> */}
         </p>
       </motion.div>
 

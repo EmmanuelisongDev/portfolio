@@ -1,6 +1,15 @@
 const data = [
   {
     id: 1,
+    name: "REXA",
+    type: "Ecommerce Website",
+    git: "https://github.com/EmmanuelisongDev/Rexa",
+    link: "https://rexa-ecommerce.netlify.app/",
+    image: require("./assets/rexa.png"),
+    tools: ["React", "TailwindCSS", "SanityCMS", "Paystack"],
+  },
+  {
+    id: 2,
     name: "CokBok.",
     type: "Food Recipe App",
     git: "https://github.com/EmmanuelisongDev/CokBok",
@@ -9,7 +18,7 @@ const data = [
     tools: ["React", "TailwindCSS", "SpoonacularApi"],
   },
   {
-    id: 2,
+    id: 3,
     name: "Tetris",
     type: "Retro Game",
     git: "https://github.com/EmmanuelisongDev/Tetris",
@@ -18,7 +27,7 @@ const data = [
     tools: ["HTML", "CSS", "Javascript"],
   },
   {
-    id: 3,
+    id: 4,
     name: "DailyBread",
     type: "Landing Page",
     git: "https://github.com/EmmanuelisongDev/DailyBread",
@@ -27,7 +36,7 @@ const data = [
     tools: ["React", "TailwindCSS"],
   },
   {
-    id: 4,
+    id: 5,
     name: "Planetor",
     type: "Planet Calculator",
     git: "https://github.com/EmmanuelisongDev/Planetorz.git",
@@ -36,7 +45,7 @@ const data = [
     tools: ["HTML", "CSS", "Javascript"],
   },
   {
-    id: 5,
+    id: 6,
     name: "WeatherMan",
     type: "Weather Application",
     git: "https://github.com/EmmanuelisongDev/WeatherMan",
